@@ -29,72 +29,6 @@
                 android:background="@android:color/white"/>
 
 
-        <!-- App 1, Row 1 -->
-        <LinearLayout
-                      android:layout_height="wrap_content"
-                      android:layout_width="match_parent"
-                      android:layout_marginTop="@dimen/vertical_item_margin_large"
-                      android:orientation="horizontal">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/ic_app"
-                    android:scaleType="fitCenter"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app16_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app16_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-        <!-- Row 2 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="@dimen/app_phone_screenshot_height"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/ss_ios_mcare_1"
-                android:scaleType="fitCenter"/>
-
-            <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/ss_ios_mcare_2"
-                    android:scaleType="fitCenter"/>
-        </LinearLayout>
-
 
 
         <!-- App 7, Row 1 -->
@@ -110,11 +44,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_app"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -178,6 +109,69 @@
         </LinearLayout>
 
 
+        <!-- App 1, Row 1 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                <ImageView
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:textStyle="bold"
+                            android:text="@string/android_app16_title"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:background="@color/colorDarkGrey"/>
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:text="@string/android_app16_description"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Row 2 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
+
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/app_phone_screenshot_height"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_ios_mcare_1"
+                    android:scaleType="fitCenter"/>
+
+            <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/app_phone_screenshot_height"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_ios_mcare_2"
+                    android:scaleType="fitCenter"/>
+        </LinearLayout>
+
 
         <!-- App 17, Row 1 -->
         <LinearLayout
@@ -192,11 +186,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_app"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -274,11 +265,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_app"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -344,11 +332,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_app"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -421,11 +406,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="60dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_app"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"

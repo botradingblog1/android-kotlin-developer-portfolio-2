@@ -44,4 +44,12 @@
         <item name="android:textSize">16dp</item>
         <item name="android:textColor">@color/colorAccent</item>
     </style>
+    <style name="AppTheme.AppIconStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
 </resources>

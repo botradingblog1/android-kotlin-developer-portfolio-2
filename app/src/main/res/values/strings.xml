@@ -81,33 +81,32 @@
     <!-- ANDROID APPS PAGE -->
     <string name="android_apps_title">Android Apps</string>
 
-    <string name="android_app1_title">TRUSTICA Mobile (Android)</string>
+    <string name="android_app1_title">TRUSTICA Mobile (Android, Java)</string>
     <string name="android_app1_description">Enterprise mobile application for secure messaging and VOIP
         (Android and iOS).</string>
 
-    <string name="android_app2_title">Health In Hand (Android)</string>
+    <string name="android_app2_title">Health In Hand (Android, Java)</string>
     <string name="android_app2_description">Intended for Molina Healthcare members  to search for providers, view coverage information, pay bills, manage their account, view their health information (medications, allergies, service history) and access nurse and provider information. English and Spanish language implementation.
     </string>
 
-    <string name="android_app3_title">Shuttle Tracker (Android)</string>
+    <string name="android_app3_title">Shuttle Tracker (Android, Java)</string>
     <string name="android_app3_description">Proof-Of-Concept shuttle tracking app using Android Fused Location Provider. Allowed Molina Healthcare members to view shuttle schedule , location and receive notifications when the shuttle is near.</string>
 
-    <string name="android_app4_title">Molina Employee App (Android, Xamarin)</string>
+    <string name="android_app4_title">Molina Employee App (Android, Java)</string>
     <string name="android_app4_description">Intended for Molina Healthcare employees to search for colleagues, view contact information, navigate the corporate hierarchy, find buildings and address information and find open conference rooms.</string>
 
-    <string name="android_app5_title">Molina Entitlement Management (Android, Xamarin)</string>
+    <string name="android_app5_title">Molina Entitlement Management (Android, Java)</string>
     <string name="android_app5_description">Intended for Molina Healthcare managers to manage system and software access for their subordinates  from their mobile phone.</string>
 
-    <string name="android_app_6_title">Strategic Plan Viewer (Android, Xamarin)</string>
+    <string name="android_app_6_title">Strategic Plan Viewer (Android, Java)</string>
     <string name="android_app6_description">Intended for Molina Healthcare executives to view the IT Strategic plan on their tablet or mobile phone.</string>
 
-    <string name="android_app8_title">ICD9 / ICD10 Reference App (Android, Xamarin)</string>
+    <string name="android_app8_title">ICD9 / ICD10 Reference App (Android, Java)</string>
     <string name="android_app8_description">Intended for medical providers to look up ICD-9 or ICD-10 codes for disease and health conditions and access a mapping between them.</string>
 
-    <string name="android_app9_title">V2V Secure Messaging Library (Native Android)</string>
+    <string name="android_app9_title">V2V Secure Messaging Library (Native Android, C, C++)</string>
     <string name="android_app9_description">Secure Messaging library for  secure vehicle-to-vehicle communication In native Android layer implementation.
     </string>
-
 
     <string name="android_app21_title">Developer Portfolio (Android, Kotlin)</string>
     <string name="android_app21_description">Android app written in Kotlin to showcase a mobile developer\'s portfolio.</string>
@@ -128,18 +127,15 @@
     <string name="android_app14_description">Blog tutorial sample app for storing preferences securely.</string>
 
     <!-- iOS -->
+    <string name="android_app7_title">PCMS Provider App (iOS, Swift)</string>
+    <string name="android_app7_description">Intended for Molina Pathways Providers to review member information, fill out different types of medical forms and store the information either offline on the device or sync it up to a server. The form structure downloaded from the server and dynamically  rendered.</string>
+
     <string name="android_app16_title">Molina mCare Case Worker App (iOS, Objective-C, JQuery Mobile)</string>
     <string name="android_app16_description">Intended for Molina Healthcare  nurses and care team members  to view member form information on iPad devices, update form information in offline mode and sync the forms to Molina servers and state Medicaid/Medicare systems.
     </string>
 
-    <string name="android_app7_title">PCMS Provider App (iOS, Xamarin)</string>
-    <string name="android_app7_description">Intended for Molina Pathways Providers to review member information, fill out different types of medical forms and store the information either offline on the device or sync it up to a server. The form structure downloaded from the server and dynamically  rendered.</string>
-
     <string name="android_app17_title">SpaceX Info App (iOS, Swift)</string>
     <string name="android_app17_description">Implements the SpaceX and Flickr APIs in iOS Swift to retrieve and display information about the SpaceX project.</string>
-
-    <string name="android_app18_title">Flickr API Tutorial App (iOS, Swift)</string>
-    <string name="android_app18_description">Sample app for a blog post tutorial about how to implement the Flickr API in iOS Swift.</string>
 
     <string name="android_app19_title">Virtual Tourist Photo App (iOS, Swift)</string>
     <string name="android_app19_description">iOS Swift app to select tourist destinations from a map and retrieve associated photos using the Flickr API.</string>
@@ -147,7 +143,8 @@
     <string name="android_app20_title">Meme Photo App (iOS, Swift)</string>
     <string name="android_app20_description">iOS Swift app to create Memes and share and save them using the iOS Share interface.</string>
 
-
+    <string name="android_app18_title">Flickr API Tutorial App (iOS, Swift)</string>
+    <string name="android_app18_description">Sample app for a blog post tutorial about how to implement the Flickr API in iOS Swift.</string>
 
 
     <!-- iOS APPS PAGE -->
