@@ -28,7 +28,6 @@ class ItemListActivity : AppCompatActivity() {
         val MENU_CERTIFICATES_ID = "5"
         val MENU_ANDROID_APPS_ID = "6"
         val MENU_IOS_APPS_ID = "7"
-        val MENU_XAMARIN_APPS_ID = "8"
     }
 
     /**
@@ -55,6 +54,7 @@ class ItemListActivity : AppCompatActivity() {
         setupRecyclerView(item_list)
 
         // Load Detail fragment
+        // Tablet Layout
         if (twoPane) {
             val fragment = ItemDetailFragment().apply {
                 arguments = Bundle().apply {
@@ -67,8 +67,9 @@ class ItemListActivity : AppCompatActivity() {
                 .commit()
 
         } else {
+            // Phone Layout
             val intent = Intent(this, ItemDetailActivity::class.java).apply {
-                putExtra(ItemDetailFragment.ARG_ITEM_ID, "1")
+                putExtra(ItemDetailFragment.ARG_ITEM_ID, "0")
             }
             this.startActivity(intent)
         }
@@ -77,30 +78,15 @@ class ItemListActivity : AppCompatActivity() {
     private fun setupRecyclerView(recyclerView: RecyclerView) {
         val menuItems: MutableList<PortfolioMenuItem> = ArrayList()
 
-        // Create your menu items
-        //val item6 = PortfolioMenuItem(MENU_XAMARIN_APPS_ID, "Xamarin Apps", "")
-        //menuItems.add(0, item6)
+        // Create menu items
+        menuItems.add(0, PortfolioMenuItem(MENU_IOS_APPS_ID, "iOS Apps", ""))
+        menuItems.add(0, PortfolioMenuItem(MENU_ANDROID_APPS_ID, "Android Apps", ""))
+        menuItems.add(0, PortfolioMenuItem(MENU_CERTIFICATES_ID, "Certificates", ""))
+        menuItems.add(0, PortfolioMenuItem(MENU_EXPERIENCE_ID, "Professional Experience", ""))
+        menuItems.add(0, PortfolioMenuItem(MENU_EDUCATION_ID, "Education", ""))
+        menuItems.add(0, PortfolioMenuItem(MENU_OBJECTIVE_ID, "Objective", ""))
 
-        val item5 = PortfolioMenuItem(MENU_IOS_APPS_ID, "iOS Apps", "")
-        menuItems.add(0, item5)
-
-        val item4 = PortfolioMenuItem(MENU_ANDROID_APPS_ID, "Android Apps", "")
-        menuItems.add(0, item4)
-
-        val item3 = PortfolioMenuItem(MENU_CERTIFICATES_ID, "Certificates", "")
-        menuItems.add(0, item3)
-
-
-        val item1 = PortfolioMenuItem(MENU_EXPERIENCE_ID, "Professional Experience", "")
-        menuItems.add(0, item1)
-
-        val item2 = PortfolioMenuItem(MENU_EDUCATION_ID, "Education", "")
-        menuItems.add(0, item2)
-
-        val item0 = PortfolioMenuItem(MENU_OBJECTIVE_ID, "Objective", "")
-        menuItems.add(0, item0)
-
-
+        // Set Menu items
         recyclerView.adapter = SimpleItemRecyclerViewAdapter(this, menuItems, twoPane)
     }
 
@@ -115,10 +101,11 @@ class ItemListActivity : AppCompatActivity() {
             onClickListener = View.OnClickListener { v ->
                 val item = v.tag as PortfolioMenuItem
 
+                // Tablet Layout
                 if (twoPane) {
                     val fragment = ItemDetailFragment().apply {
                         arguments = Bundle().apply {
-                            putString(ItemDetailFragment.ARG_ITEM_ID, item.id.toString())
+                            putString(ItemDetailFragment.ARG_ITEM_ID, item.id)
                         }
                     }
                     parentActivity.supportFragmentManager
@@ -127,6 +114,7 @@ class ItemListActivity : AppCompatActivity() {
                         .commit()
 
                 } else {
+                    // Phone Layout
                     val intent = Intent(v.context, ItemDetailActivity::class.java).apply {
                         putExtra(ItemDetailFragment.ARG_ITEM_ID, item.id)
                     }

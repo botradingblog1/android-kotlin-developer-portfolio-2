@@ -74,12 +74,6 @@ class ItemDetailFragment : Fragment() {
             rootView = inflater.inflate(R.layout.fragment_evolution_steps, container, false)
         }
 
-
-        // Show the dummy content as text in a TextView.
-        /* item?.let {
-            rootView.item_detail.text = it.details
-        }*/
-
         return rootView
     }
 
