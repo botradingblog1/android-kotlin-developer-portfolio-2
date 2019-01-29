@@ -32,7 +32,7 @@
                 android:scaleType="fitCenter"/>
 
         <TextView
-                style="?android:attr/textAppearanceLarge"
+                style="@style/AppTheme.PageHeading1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/vertical_item_margin_med"

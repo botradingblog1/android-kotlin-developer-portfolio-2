@@ -21,7 +21,7 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="AppTheme.PageHeading">
-        <item name="android:textSize">22dp</item>
+        <item name="android:textSize">@dimen/page_heading_font_size</item>
         <item name="android:textColor">@color/colorAccent</item>
     </style>
     <style name="AppTheme.PageBody">
@@ -30,7 +30,7 @@
     </style>
     <style name="AppTheme.PageHeading1">
         <item name="android:textSize">@dimen/font_size_heading_1</item>
-        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorAccent</item>
     </style>
     <style name="AppTheme.PageHeading2">
         <item name="android:textSize">13dp</item>

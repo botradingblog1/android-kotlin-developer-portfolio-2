@@ -10,7 +10,6 @@
             style="@style/AppTheme.PageHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/vertical_item_margin_med"
             android:text="@string/about_me"
             android:textIsSelectable="true"
             tools:context=".ItemDetailFragment" />
@@ -18,13 +17,11 @@
     <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginLeft="@dimen/vertical_item_margin_med"
-            android:layout_marginRight="@dimen/vertical_item_margin_med"
             android:background="@android:color/white"/>
 
     <!-- Your Content Here -->
     <TextView
-            style="@style/AppTheme.PageBodyAccent"
+            style="@style/AppTheme.PageHeading1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/vertical_item_margin_large"
@@ -38,7 +35,7 @@
             android:text="@string/about_me_summary"/>
 
     <TextView
-            style="@style/AppTheme.PageBodyAccent"
+            style="@style/AppTheme.PageHeading1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/vertical_item_margin_large"
