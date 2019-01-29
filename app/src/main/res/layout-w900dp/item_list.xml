@@ -6,7 +6,7 @@
               android:layout_height="match_parent"
               android:layout_marginLeft="16dp"
               android:layout_marginRight="16dp"
-              android:backgroundTint="@color/colorPrimary"
+              android:background="@color/colorPrimary"
               android:baselineAligned="false"
               android:divider="?android:attr/dividerHorizontal"
               android:orientation="horizontal"
@@ -38,6 +38,7 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_med"
                 android:textSize="16dp"
                 android:padding="@dimen/vertical_item_margin_med"
+                android:layout_gravity="center_horizontal"
                 android:textColor="@color/colorAccent"
                 android:text="@string/developer_name"/>
 
@@ -62,6 +63,7 @@
                                                 tools:listitem="@layout/item_list_content" />
     </LinearLayout>
 
+    <!-- Detail Pane -->
     <FrameLayout
             android:id="@+id/item_detail_container"
             android:layout_width="0dp"
