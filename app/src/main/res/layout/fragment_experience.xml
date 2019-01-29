@@ -41,11 +41,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    app:srcCompat="@drawable/ic_appguard"
-                    android:scaleType="fitCenter"/>
+                    style="@style/AppTheme.CompanyIconStyle"
+                    app:srcCompat="@drawable/ic_appguard"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -85,11 +82,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_molina"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.CompanyIconStyle"
+                        app:srcCompat="@drawable/ic_molina"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -139,11 +133,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_time_warner"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.CompanyIconStyle"
+                        app:srcCompat="@drawable/ic_time_warner"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -185,11 +176,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_clearwire"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.CompanyIconStyle"
+                        app:srcCompat="@drawable/ic_clearwire"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -239,11 +227,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_real_networks"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.CompanyIconStyle"
+                        app:srcCompat="@drawable/ic_real_networks"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
@@ -284,11 +269,8 @@
                     android:orientation="horizontal">
 
                 <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        app:srcCompat="@drawable/ic_eds"
-                        android:scaleType="fitCenter"/>
+                        style="@style/AppTheme.CompanyIconStyle"
+                        app:srcCompat="@drawable/ic_eds"/>
                 <LinearLayout
                         android:layout_height="wrap_content"
                         android:layout_width="match_parent"
