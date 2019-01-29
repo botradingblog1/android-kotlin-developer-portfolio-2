@@ -1,0 +1,161 @@
+﻿<resources>
+    <string name="app_name">Developer Portfolio</string>
+    <string name="developer_name">Christian Scheid</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <!-- ABOUT PAGE -->
+    <string name="about_me">About Me</string>
+    <string name="about_me_objective">Objective</string>
+    <string name="about_me_summary_title">Qualifications</string>
+    <string name="about_me_summary">Accomplished, passionate mobile developer with extensive mobile development experience. Seeking to leverage and advance my technical expertise to develop outstanding apps in the role of Mobile Software Engineer.</string>
+    <string name="about_me_bullets">&#8226; Principal Android / iOS developer and experienced Technical Lead\n
+        &#8226; Extensive experience delivering complex mobile apps and supporting all phases of the software development life cycle\n
+        &#8226; Strong technical knowledge of mobile development technologies and understanding of object-oriented (OO) principles, MVC and MVVM\n
+        &#8226; Full Stack Engineer with experience developing .Net backends\n
+        &#8226; Proactive learner with several industry-valued certifications\n
+        &#8226; Team-oriented mindset with ability to lead, manage, meet deadlines and deliver quality products\n
+        &#8226; Positive, self-motivated attitude and attention to detail\n
+        &#8226; Trained in Agile Software Development methodology\n
+        &#8226; Excellent written and verbal communication skills\n
+        &#8226; Advanced degrees: BS in Computer Science, Masters in Technology Management.\n
+    </string>
+
+    <!-- EDUCATION PAGE -->
+    <string name="education_title">Education</string>
+
+    <string name="education_school_1">European Business School, Öestrich-Winkel, Germany</string>
+    <string name="education_degree_1">B.S. INFORMATION MANAGEMENT</string>
+    <string name="education_gpa_1">3.8 G.P.A. equivalent</string>
+
+    <string name="education_school_2">James Madison University, Harrisonburg, Virginia</string>
+    <string name="education_degree_2">M.B.A. TECHNOLOGY MANAGEMENT</string>
+    <string name="education_gpa_2">4.0 G.P.A.</string>
+
+    <!-- EXPERIENCE PAGE -->
+    <string name="experience_title">Experience</string>
+    <string name="experience_company1_name">Appguard</string>
+    <string name="experience_company1_title">Principal Android  / iOS Developer,  Technical Lead</string>
+    <string name="experience_company1_description">Principal developer leading Android and iOS team in the development of a secure Enterprise messaging and VOIP mobile application. Developed secure vehicle-to-vehicle communication prototypes.</string>
+
+    <string name="experience_company2_name">Molina Healthcare</string>
+    <string name="experience_company2_title">Android Team Lead / Senior Mobile Architect</string>
+    <string name="experience_company2_description">As part of the Molina Mobile Development team, designed and developed several  native Android, iOS and Xamarin apps. Authored Mobile Security Guidelines for Mobile Development.</string>
+
+    <string name="experience_company3_name">Time Warner Cable</string>
+    <string name="experience_company3_title">Senior Mobile Software Engineer</string>
+    <string name="experience_company3_description">Designed and developed several mobile prototypes in native Android and iOS.  Presented multiple solutions related to WiFi  and hotspot security and authentication</string>
+
+    <string name="experience_company4_name">Clearwire</string>
+    <string name="experience_company4_title">Mobile Device Software Engineer</string>
+    <string name="experience_company4_description">Developed test tools to connect WiMAX 4G devices to the network; tested and developed OMA clients for device provisioning.</string>
+
+    <string name="experience_company5_name">Real Networks</string>
+    <string name="experience_company5_title">Technical Manager</string>
+    <string name="experience_company5_description">Responsible for managing the Ringtone and Ringback Tone purchase applications for Verizon Wireless, Inc. which generated a yearly revenue of 110 and 153 million dollars  in 2009.</string>
+
+    <string name="experience_company6_name">EDS</string>
+    <string name="experience_company6_title">PDM Software Engineer / Architect</string>
+    <string name="experience_company6_description">In the role of PDM Consultant and Architect, implemented TeamCenter Product Data Management software at several Fortune 500 Companies such as Mack Trucks, Gillette, Renault, Otis elevators and Kodak. Worked at locations in the US and Paris, France.</string>
+
+    <!-- CERTIFICATION PAGE -->
+    <string name="certificates_title">Certificates</string>
+
+    <string name="certificates_cert1_title">GOOGLE ANDROID ASSOCIATE DEVELOPER</string>
+    <string name="certificates_cert1_description">Google’s  Android  Associate certification, which demonstrates the type of skill that an entry-level Android Developer should have as they begin their career.</string>
+
+    <string name="certificates_cert2_title">ATC ANDROID CERTIFIED APPLICATION DEVELOPER</string>
+    <string name="certificates_cert2_description">ATC’s  Android  developer certification demonstrates the type of skill that an entry-level Android Developer should have.</string>
+
+    <string name="certificates_cert3_title">iOS DEVELOPER UDACITY NANODEGREE</string>
+    <string name="certificates_cert3_description">6-month program to learn iOS Development and Swift from the ground up.</string>
+
+    <string name="certificates_cert4_title">ORACLE/SUN CERTIFIED JAVA PROGRAMMER</string>
+    <string name="certificates_cert4_description">Oracle’s exam to demonstrate a solid understanding of the Java Programming language.</string>
+
+    <string name="certificates_cert5_title">PYTHON CERTIFIED ASSOCIATE PROGRAMMER</string>
+    <string name="certificates_cert5_description">Python Institute certificate for basic Python programming and general object-oriented programming concepts.</string>
+
+    <string name="certificates_cert6_title">SECURITY+</string>
+    <string name="certificates_cert6_description">CompTIA Security+ is a certification to validate foundational, vendor-neutral IT security knowledge and skills.</string>
+
+    <!-- ANDROID APPS PAGE -->
+    <string name="android_apps_title">Android Apps</string>
+
+    <string name="android_app1_title">TRUSTICA Mobile (Android)</string>
+    <string name="android_app1_description">Enterprise mobile application for secure messaging and VOIP
+        (Android and iOS).</string>
+
+    <string name="android_app2_title">Health In Hand (Android)</string>
+    <string name="android_app2_description">Intended for Molina Healthcare members  to search for providers, view coverage information, pay bills, manage their account, view their health information (medications, allergies, service history) and access nurse and provider information. English and Spanish language implementation.
+    </string>
+
+    <string name="android_app3_title">Shuttle Tracker (Android)</string>
+    <string name="android_app3_description">Proof-Of-Concept shuttle tracking app using Android Fused Location Provider. Allowed Molina Healthcare members to view shuttle schedule , location and receive notifications when the shuttle is near.</string>
+
+    <string name="android_app4_title">Molina Employee App (Android, Xamarin)</string>
+    <string name="android_app4_description">Intended for Molina Healthcare employees to search for colleagues, view contact information, navigate the corporate hierarchy, find buildings and address information and find open conference rooms.</string>
+
+    <string name="android_app5_title">Molina Entitlement Management (Android, Xamarin)</string>
+    <string name="android_app5_description">Intended for Molina Healthcare managers to manage system and software access for their subordinates  from their mobile phone.</string>
+
+    <string name="android_app_6_title">Strategic Plan Viewer (Android, Xamarin)</string>
+    <string name="android_app6_description">Intended for Molina Healthcare executives to view the IT Strategic plan on their tablet or mobile phone.</string>
+
+    <string name="android_app8_title">ICD9 / ICD10 Reference App (Android, Xamarin)</string>
+    <string name="android_app8_description">Intended for medical providers to look up ICD-9 or ICD-10 codes for disease and health conditions and access a mapping between them.</string>
+
+    <string name="android_app9_title">V2V Secure Messaging Library (Native Android)</string>
+    <string name="android_app9_description">Secure Messaging library for  secure vehicle-to-vehicle communication In native Android layer implementation.
+    </string>
+
+
+    <string name="android_app21_title">Developer Portfolio (Android, Kotlin)</string>
+    <string name="android_app21_description">Android app written in Kotlin to showcase a mobile developer\'s portfolio.</string>
+
+    <string name="android_app10_title">WiFi Signal Propagation Visualization POC (Android)</string>
+    <string name="android_app10_description">Proof-Of-Concept app for Time Warner RF engineers to view WiFi signal propagation on a map.</string>
+
+    <string name="android_app11_title">Firebase Database Tutorial (Android)</string>
+    <string name="android_app11_description">Blog tutorial sample app for using Firebase Database.</string>
+
+    <string name="android_app12_title">Firebase Storage Tutorial (Android)</string>
+    <string name="android_app12_description">Blog tutorial sample app for using Firebase Storage.</string>
+
+    <string name="android_app13_title">Secure Password Storage Tutorial (Android)</string>
+    <string name="android_app13_description">Blog tutorial sample app for storing passwords securely.</string>
+
+    <string name="android_app14_title">Secure Preference Storage Tutorial (Android)</string>
+    <string name="android_app14_description">Blog tutorial sample app for storing preferences securely.</string>
+
+    <!-- iOS -->
+    <string name="android_app16_title">Molina mCare Case Worker App (iOS, Objective-C, JQuery Mobile)</string>
+    <string name="android_app16_description">Intended for Molina Healthcare  nurses and care team members  to view member form information on iPad devices, update form information in offline mode and sync the forms to Molina servers and state Medicaid/Medicare systems.
+    </string>
+
+    <string name="android_app7_title">PCMS Provider App (iOS, Xamarin)</string>
+    <string name="android_app7_description">Intended for Molina Pathways Providers to review member information, fill out different types of medical forms and store the information either offline on the device or sync it up to a server. The form structure downloaded from the server and dynamically  rendered.</string>
+
+    <string name="android_app17_title">SpaceX Info App (iOS, Swift)</string>
+    <string name="android_app17_description">Implements the SpaceX and Flickr APIs in iOS Swift to retrieve and display information about the SpaceX project.</string>
+
+    <string name="android_app18_title">Flickr API Tutorial App (iOS, Swift)</string>
+    <string name="android_app18_description">Sample app for a blog post tutorial about how to implement the Flickr API in iOS Swift.</string>
+
+    <string name="android_app19_title">Virtual Tourist Photo App (iOS, Swift)</string>
+    <string name="android_app19_description">iOS Swift app to select tourist destinations from a map and retrieve associated photos using the Flickr API.</string>
+
+    <string name="android_app20_title">Meme Photo App (iOS, Swift)</string>
+    <string name="android_app20_description">iOS Swift app to create Memes and share and save them using the iOS Share interface.</string>
+
+
+
+
+    <!-- iOS APPS PAGE -->
+    <string name="ios_apps_title">iOS Apps</string>
+
+    <!-- XAMARIN APPS PAGE -->
+    <string name="xamarin_apps_title">Xamarin Apps</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
