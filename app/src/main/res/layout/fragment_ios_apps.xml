@@ -9,8 +9,7 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-        android:orientation="vertical">
-
+            android:orientation="vertical">
         <!-- PAGE HEADING -->
         <TextView
                 android:id="@+id/item_detail"
@@ -468,9 +467,6 @@
                     app:srcCompat="@drawable/ss_ios_flickr_tutorial_1"
                     android:scaleType="fitCenter"/>
         </LinearLayout>
-
-
-
 
 
         <!-- Bottom Buffer -->
