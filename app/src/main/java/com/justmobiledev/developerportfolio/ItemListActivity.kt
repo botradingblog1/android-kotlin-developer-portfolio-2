@@ -103,6 +103,7 @@ class ItemListActivity : AppCompatActivity() {
                     val fragment = ItemDetailFragment().apply {
                         arguments = Bundle().apply {
                             putString(ItemDetailFragment.ARG_ITEM_ID, item.id)
+                            putString(ItemDetailFragment.ARG_ITEM_NAME, item.title)
                         }
                     }
                     parentActivity.supportFragmentManager
@@ -114,6 +115,7 @@ class ItemListActivity : AppCompatActivity() {
                     // Phone Layout
                     val intent = Intent(v.context, ItemDetailActivity::class.java).apply {
                         putExtra(ItemDetailFragment.ARG_ITEM_ID, item.id)
+                        putExtra(ItemDetailFragment.ARG_ITEM_NAME, item.title)
                     }
                     v.context.startActivity(intent)
                 }

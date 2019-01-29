@@ -39,6 +39,8 @@ class ItemDetailActivity : AppCompatActivity() {
                 arguments = Bundle().apply {
                     putString(ItemDetailFragment.ARG_ITEM_ID,
                             intent.getStringExtra(ItemDetailFragment.ARG_ITEM_ID))
+                    putString(ItemDetailFragment.ARG_ITEM_NAME,
+                        intent.getStringExtra(ItemDetailFragment.ARG_ITEM_NAME))
                 }
             }
 
