@@ -67,10 +67,8 @@ class ItemListActivity : AppCompatActivity() {
 
         } else {
             // Phone Layout
-            val intent = Intent(this, ItemDetailActivity::class.java).apply {
-                putExtra(ItemDetailFragment.ARG_ITEM_ID, "0")
-            }
-            this.startActivity(intent)
+            //val intent = Intent(this, ItemListActivity::class.java)
+            //this.startActivity(intent)
         }
     }
 
