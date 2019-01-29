@@ -46,10 +46,6 @@ class ItemDetailFragment : Fragment() {
         {
             rootView = inflater.inflate(R.layout.fragment_objective, container, false)
         }
-        else if (item?.id.equals(ItemListActivity.MENU_ABOUT_ID))
-        {
-            rootView = inflater.inflate(R.layout.fragment_about, container, false)
-        }
         else if (item?.id.equals(ItemListActivity.MENU_EXPERIENCE_ID))
         {
             rootView = inflater.inflate(R.layout.fragment_experience, container, false)

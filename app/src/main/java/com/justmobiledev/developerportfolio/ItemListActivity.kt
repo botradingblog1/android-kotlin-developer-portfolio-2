@@ -22,12 +22,11 @@ class ItemListActivity : AppCompatActivity() {
 
     companion object {
         val MENU_OBJECTIVE_ID = "1"
-        val MENU_ABOUT_ID = "2"
-        val MENU_EDUCATION_ID = "3"
-        val MENU_EXPERIENCE_ID = "4"
-        val MENU_CERTIFICATES_ID = "5"
-        val MENU_ANDROID_APPS_ID = "6"
-        val MENU_IOS_APPS_ID = "7"
+        val MENU_EDUCATION_ID = "2"
+        val MENU_EXPERIENCE_ID = "3"
+        val MENU_CERTIFICATES_ID = "4"
+        val MENU_ANDROID_APPS_ID = "5"
+        val MENU_IOS_APPS_ID = "6"
     }
 
     /**
