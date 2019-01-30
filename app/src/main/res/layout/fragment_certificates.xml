@@ -127,7 +127,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical">
                 <TextView
-                        style="@style/AppTheme.PageBody"
+                        style="@style/AppTheme.PageHeading2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/vertical_item_margin_med"
@@ -167,7 +167,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical">
                 <TextView
-                        style="@style/AppTheme.PageBody"
+                        style="@style/AppTheme.PageHeading2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/vertical_item_margin_med"
@@ -208,7 +208,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical">
                 <TextView
-                        style="@style/AppTheme.PageBody"
+                        style="@style/AppTheme.PageHeading2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/vertical_item_margin_med"
@@ -247,7 +247,7 @@
                     android:layout_width="match_parent"
                     android:orientation="vertical">
                 <TextView
-                        style="@style/AppTheme.PageBody"
+                        style="@style/AppTheme.PageHeading2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/vertical_item_margin_med"

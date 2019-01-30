@@ -78,23 +78,19 @@
                 android:orientation="vertical">
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                android:layout_height="@dimen/app_phone_screenshot_height"
+                    style="@style/AppTheme.ScreenshotStylePhone"
                 app:srcCompat="@drawable/ss_trustica_1"/>
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_2"/>
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_3"/>
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_4"/>
         </LinearLayout>
 
@@ -105,24 +101,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_5"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_6"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_7"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_trustica_8"/>
         </LinearLayout>
 
@@ -174,24 +166,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_health_in_hand_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_health_in_hand_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_health_in_hand_3"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_health_in_hand_4"/>
         </LinearLayout>
 
@@ -244,24 +232,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_shuttle_tracker_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_shuttle_tracker_2"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_shuttle_tracker_3"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_shuttle_tracker_4"/>
         </LinearLayout>
 
@@ -313,24 +297,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_employee_app_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_employee_app_2"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_employee_app_3"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_employee_app_4"/>
         </LinearLayout>
 
@@ -382,24 +362,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_entitlement_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_entitlement_2"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_entitlement_3"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_entitlement_4"/>
         </LinearLayout>
 
@@ -452,24 +428,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_strategic_plan_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_strategic_plan_2"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_strategic_plan_3"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_strategic_plan_4"/>
         </LinearLayout>
 
@@ -522,24 +494,20 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_icd_reference_1"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_icd_reference_2"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_icd_reference_3"/>
 
-            <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
                     app:srcCompat="@drawable/ss_icd_reference_4"/>
         </LinearLayout>
 
@@ -592,11 +560,9 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_developer_portfolio_1"
-                    android:scaleType="fitCenter"/>
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
+                    app:srcCompat="@drawable/ss_developer_portfolio_1"/>
         </LinearLayout>
 
 
