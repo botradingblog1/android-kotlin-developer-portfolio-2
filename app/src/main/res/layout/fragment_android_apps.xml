@@ -77,22 +77,22 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="vertical">
 
-            <ImageView
+            <ZoomableImageView
                     style="@style/AppTheme.ScreenshotStyle"
                 android:layout_height="@dimen/app_phone_screenshot_height"
                 app:srcCompat="@drawable/ss_trustica_1"/>
 
-            <ImageView
+            <ZoomableImageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_trustica_2"/>
 
-            <ImageView
+            <ZoomableImageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_trustica_3"/>
 
-            <ImageView
+            <ZoomableImageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_trustica_4"/>
