@@ -17,9 +17,12 @@ The app consists of the following sections:
 5. Android Apps
 6. iOS Apps.
 
+![Phone Main Menu](screenshots/phone-screenshot-1.png?raw=true "Phone Main Menu")
 
-![Main Menu](screenshots/screenshot-1.png?raw=true "Main Menu")
+![Phone Certificates](screenshots/phone-screenshot-1.png?raw=true "Phone Certificates")
 
-![Objective](screenshots/screenshot-2.png?raw=true "Objective")
+![Tablet Main Menu](screenshots/screenshot-1.png?raw=true "Main Menu")
 
-![Certificates](screenshots/screenshot-3.png?raw=true "Certificates")
+![Tablet Objective](screenshots/screenshot-2.png?raw=true "Objective")
+
+![Tablet Certificates](screenshots/screenshot-3.png?raw=true "Certificates")
