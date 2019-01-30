@@ -75,27 +75,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                android:layout_width="0dp"
                 android:layout_height="@dimen/app_phone_screenshot_height"
-                app:srcCompat="@drawable/ss_trustica_1"/>
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ss_trustica_1"
+                android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_2"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_2"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_3"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_4"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
         <!-- Row 3 -->
@@ -103,27 +111,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_5"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_5"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_6"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_6"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_7"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_7"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="0dp"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_trustica_8"/>
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ss_trustica_8"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -132,10 +148,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -172,27 +189,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_health_in_hand_1"/>
+                    app:srcCompat="@drawable/ss_health_in_hand_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_health_in_hand_1"/>
+                    app:srcCompat="@drawable/ss_health_in_hand_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_health_in_hand_3"/>
+                    app:srcCompat="@drawable/ss_health_in_hand_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_health_in_hand_4"/>
+                    app:srcCompat="@drawable/ss_health_in_hand_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -202,10 +227,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -242,27 +268,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_shuttle_tracker_1"/>
+                    app:srcCompat="@drawable/ss_shuttle_tracker_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_shuttle_tracker_2"/>
+                    app:srcCompat="@drawable/ss_shuttle_tracker_2"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_shuttle_tracker_3"/>
+                    app:srcCompat="@drawable/ss_shuttle_tracker_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_shuttle_tracker_4"/>
+                    app:srcCompat="@drawable/ss_shuttle_tracker_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -271,10 +305,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -311,27 +346,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_employee_app_1"/>
+                    app:srcCompat="@drawable/ss_employee_app_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_employee_app_2"/>
+                    app:srcCompat="@drawable/ss_employee_app_2"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_employee_app_3"/>
+                    app:srcCompat="@drawable/ss_employee_app_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_employee_app_4"/>
+                    app:srcCompat="@drawable/ss_employee_app_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -340,10 +383,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -380,27 +424,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_entitlement_1"/>
+                    app:srcCompat="@drawable/ss_entitlement_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_entitlement_2"/>
+                    app:srcCompat="@drawable/ss_entitlement_2"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_entitlement_3"/>
+                    app:srcCompat="@drawable/ss_entitlement_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_entitlement_4"/>
+                    app:srcCompat="@drawable/ss_entitlement_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -410,10 +462,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -450,27 +503,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_strategic_plan_1"/>
+                    app:srcCompat="@drawable/ss_strategic_plan_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_strategic_plan_2"/>
+                    app:srcCompat="@drawable/ss_strategic_plan_2"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_strategic_plan_3"/>
+                    app:srcCompat="@drawable/ss_strategic_plan_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_strategic_plan_4"/>
+                    app:srcCompat="@drawable/ss_strategic_plan_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -480,10 +541,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -520,27 +582,35 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_icd_reference_1"/>
+                    app:srcCompat="@drawable/ss_icd_reference_1"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_icd_reference_2"/>
+                    app:srcCompat="@drawable/ss_icd_reference_2"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_icd_reference_3"/>
+                    app:srcCompat="@drawable/ss_icd_reference_3"
+                    android:scaleType="fitCenter"/>
 
             <ImageView
-                    style="@style/AppTheme.ScreenshotStyle"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_icd_reference_4"/>
+                    app:srcCompat="@drawable/ss_icd_reference_4"
+                    android:scaleType="fitCenter"/>
         </LinearLayout>
 
 
@@ -549,10 +619,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -590,10 +661,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
             <ImageView
-                    android:layout_width="match_parent"
+                    android:layout_width="9dp"
+                    android:layout_weight="1"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_developer_portfolio_1"
                     android:scaleType="fitCenter"/>
@@ -605,10 +677,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -645,10 +718,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -686,10 +760,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -728,10 +803,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -770,10 +846,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -812,10 +889,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
+                android:orientation="horizontal">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:orientation="horizontal">
 
                 <ImageView

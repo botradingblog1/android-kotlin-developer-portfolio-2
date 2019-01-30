@@ -4,8 +4,10 @@
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_height="match_parent"
               android:layout_width="match_parent"
+              android:background="@color/colorPrimary"
               android:padding="@dimen/page_frame_padding"
               android:orientation="vertical">
+
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="match_parent"
                   android:orientation="vertical">
@@ -31,90 +33,82 @@
         <LinearLayout
                       android:layout_height="wrap_content"
                       android:layout_width="match_parent"
-                      android:layout_marginTop="@dimen/vertical_item_margin_large"
+                      android:layout_marginTop="@dimen/vertical_item_margin_med"
                       android:orientation="horizontal">
-            <!-- column 1-->
+
+            <ImageView
+                style="@style/AppTheme.CompanyIconStyle"
+                app:srcCompat="@drawable/ic_appguard"/>
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                    style="@style/AppTheme.CompanyIconStyle"
-                    app:srcCompat="@drawable/ic_appguard"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        style="@style/AppTheme.PageBody"
                         android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/experience_company1_name"/>
-                    <TextView
-                            style="@style/AppTheme.PageBodyAccent"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company1_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company1_description"/>
-                </LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:textStyle="bold"
+                        android:text="@string/experience_company1_name"/>
+                <TextView
+                        style="@style/AppTheme.PageBodyAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company1_title"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:background="@color/colorDarkGrey"/>
+                <TextView
+                        style="@style/AppTheme.PageBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company1_description"/>
             </LinearLayout>
+        </LinearLayout>
 
-            <!-- column 2 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
+
+            <ImageView
+                    style="@style/AppTheme.CompanyIconStyle"
+                    app:srcCompat="@drawable/ic_molina"/>
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.CompanyIconStyle"
-                        app:srcCompat="@drawable/ic_molina"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        style="@style/AppTheme.PageBody"
                         android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/experience_company2_name"/>
-                    <TextView
-                            style="@style/AppTheme.PageBodyAccent"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company2_title"/>
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:textStyle="bold"
+                        android:text="@string/experience_company2_name"/>
+                <TextView
+                        style="@style/AppTheme.PageBodyAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company2_title"/>
 
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:background="@color/colorDarkGrey"/>
 
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company2_description"/>
-                </LinearLayout>
+                <TextView
+                        style="@style/AppTheme.PageBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company2_description"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -125,89 +119,82 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="horizontal">
 
-            <!-- column 1 -->
+
+            <ImageView
+                    style="@style/AppTheme.CompanyIconStyle"
+                    app:srcCompat="@drawable/ic_time_warner"/>
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.CompanyIconStyle"
-                        app:srcCompat="@drawable/ic_time_warner"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        style="@style/AppTheme.PageBody"
                         android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/experience_company3_name"/>
-                    <TextView
-                            style="@style/AppTheme.PageBodyAccent"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company3_title"/>
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:textStyle="bold"
+                        android:text="@string/experience_company3_name"/>
+                <TextView
+                        style="@style/AppTheme.PageBodyAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company3_title"/>
 
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:background="@color/colorDarkGrey"/>
 
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company3_description"/>
-                </LinearLayout>
+                <TextView
+                        style="@style/AppTheme.PageBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company3_description"/>
             </LinearLayout>
+        </LinearLayout>
 
-            <!-- column 2 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
+
+
+            <ImageView
+                    style="@style/AppTheme.CompanyIconStyle"
+                    app:srcCompat="@drawable/ic_clearwire"/>
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.CompanyIconStyle"
-                        app:srcCompat="@drawable/ic_clearwire"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        style="@style/AppTheme.PageBody"
                         android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/experience_company4_name"/>
-                    <TextView
-                            style="@style/AppTheme.PageBodyAccent"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company4_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:textStyle="bold"
+                        android:text="@string/experience_company4_name"/>
+                <TextView
+                        style="@style/AppTheme.PageBodyAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company4_title"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:background="@color/colorDarkGrey"/>
 
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company4_description"/>
-                </LinearLayout>
+                <TextView
+                        style="@style/AppTheme.PageBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company4_description"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -219,55 +206,47 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
                 android:orientation="horizontal">
 
-            <!-- column 1 -->
+
+            <ImageView
+                    style="@style/AppTheme.CompanyIconStyle"
+                    app:srcCompat="@drawable/ic_real_networks"/>
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.CompanyIconStyle"
-                        app:srcCompat="@drawable/ic_real_networks"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                        style="@style/AppTheme.PageBody"
                         android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/experience_company5_name"/>
-                    <TextView
-                            style="@style/AppTheme.PageBodyAccent"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company5_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:textStyle="bold"
+                        android:text="@string/experience_company5_name"/>
+                <TextView
+                        style="@style/AppTheme.PageBodyAccent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company5_title"/>
+                <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:background="@color/colorDarkGrey"/>
 
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/experience_company5_description"/>
-                </LinearLayout>
+                <TextView
+                        style="@style/AppTheme.PageBody"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/vertical_item_margin_med"
+                        android:text="@string/experience_company5_description"/>
             </LinearLayout>
+        </LinearLayout>
 
-            <!-- column 2 -->
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
                 <ImageView
                         style="@style/AppTheme.CompanyIconStyle"
                         app:srcCompat="@drawable/ic_eds"/>
@@ -300,8 +279,12 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/vertical_item_margin_med"
                             android:text="@string/experience_company6_description"/>
-                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
+
+        <!-- Bottom Buffer -->
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/vertical_item_margin_large"/>
     </LinearLayout>
 </ScrollView>
