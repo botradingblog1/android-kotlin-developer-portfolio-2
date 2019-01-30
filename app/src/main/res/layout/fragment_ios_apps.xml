@@ -36,11 +36,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -76,36 +75,27 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_pcms_provider_1"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_pcms_provider_1"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_pcms_provider_2"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_pcms_provider_2"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_pcms_provider_3"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_pcms_provider_3"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_pcms_provider_4"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_pcms_provider_4"/>
         </LinearLayout>
 
 
@@ -114,11 +104,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -154,22 +143,17 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="0dp"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/ss_ios_mcare_1"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_ios_mcare_1"/>
 
             <ImageView
-                    android:layout_width="0dp"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/ss_ios_mcare_2"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_ios_mcare_2"/>
         </LinearLayout>
 
 
@@ -178,11 +162,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -218,36 +201,27 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_spacex_1"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_spacex_1"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_spacex_2"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_spacex_2"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_spacex_3"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_spacex_3"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_spacex_4"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_spacex_4"/>
         </LinearLayout>
 
         <!-- App 20, Row 1 -->
@@ -255,11 +229,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -297,29 +270,22 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_meme_app_2"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_meme_app_2"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_meme_app_3"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_meme_app_3"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_meme_app_1"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_meme_app_1"/>
         </LinearLayout>
 
 
@@ -329,11 +295,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -371,22 +336,17 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_virtual_tourist_1"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_virtual_tourist_1"/>
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_virtual_tourist_2"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_virtual_tourist_2"/>
         </LinearLayout>
 
 
@@ -395,11 +355,10 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
             <LinearLayout
                     android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
+                    android:layout_width="match_parent"
                     android:orientation="horizontal">
 
                 <ImageView
@@ -436,15 +395,12 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
             <ImageView
-                    android:layout_width="9dp"
-                    android:layout_weight="1"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
-                    app:srcCompat="@drawable/ss_ios_flickr_tutorial_1"
-                    android:scaleType="fitCenter"/>
+                    app:srcCompat="@drawable/ss_ios_flickr_tutorial_1"/>
         </LinearLayout>
 
 
