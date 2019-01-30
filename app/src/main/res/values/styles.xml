@@ -64,19 +64,4 @@
     <item name="android:layout_gravity">center</item>
     <item name="android:scaleType">fitCenter</item>
     </style>
-    <style name="AppTheme.ZoomScreenshotStyle">
-        <item name="android:layout_marginTop">16dp</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:scaleType">fitCenter</item>
-        <item name="app:zoomage_restrictBounds">false</item>
-        <item name="app:zoomage_animateOnReset">true</item>
-        <item name="app:zoomage_autoResetMode">UNDER</item>
-        <item name="app:zoomage_autoCenter">true</item>
-        <item name="app:zoomage_zoomable">true</item>
-        <item name="app:zoomage_translatable">true</item>
-        <item name="app:zoomage_minScale">0.6</item>
-        <item name="app:zoomage_maxScale">8</item>
-    </style>
-
 </resources>

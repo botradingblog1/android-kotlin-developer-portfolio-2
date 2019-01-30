@@ -78,22 +78,22 @@
                 android:orientation="vertical">
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ZoomScreenshotStyle"
+                    style="@style/AppTheme.ScreenshotStyle"
                 android:layout_height="@dimen/app_phone_screenshot_height"
                 app:srcCompat="@drawable/ss_trustica_1"/>
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ZoomScreenshotStyle"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_trustica_2"/>
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ZoomScreenshotStyle"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_trustica_3"/>
 
             <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ZoomScreenshotStyle"
+                    style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_trustica_4"/>
         </LinearLayout>
