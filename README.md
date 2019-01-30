@@ -19,7 +19,7 @@ The app consists of the following sections:
 
 ![Phone Main Menu](screenshots/phone-screenshot-1.png?raw=true "Phone Main Menu")
 
-![Phone Certificates](screenshots/phone-screenshot-1.png?raw=true "Phone Certificates")
+![Phone Certificates](screenshots/phone-screenshot-3.png?raw=true "Phone Certificates")
 
 ![Tablet Main Menu](screenshots/screenshot-1.png?raw=true "Main Menu")
 
