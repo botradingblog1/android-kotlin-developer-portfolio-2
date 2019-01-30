@@ -1,9 +1,9 @@
-# Developer Portfolio (Best viewed on tablets)
+# Developer Portfolio 
 
 ## Overview
 This project is a native Android app written in Kotlin. The purpose is to showcase a mobile developer's app portfolio. 
 
-If you would like to use this project to create your own developer portfolio, please use my other repository 'android-kotlin-developer-portfolio-1'.
+This is my personal developer portfolio. If you would like to use this project to create your own developer portfolio, please use my other repository 'android-kotlin-developer-portfolio-1'.
 
 
 ## Sections
@@ -13,7 +13,7 @@ The app consists of the following sections:
 3. Professional Experience
 4. Certificates
 5. Android Apps
-6. iOS Apps
+6. iOS Apps.
 
 
 ![Main Menu](screenshots/screenshot-1.png?raw=true "Main Menu")
