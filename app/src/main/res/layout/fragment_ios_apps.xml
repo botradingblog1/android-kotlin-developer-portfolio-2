@@ -77,22 +77,22 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_pcms_provider_1"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_pcms_provider_2"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_pcms_provider_3"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_pcms_provider_4"/>
@@ -145,12 +145,12 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_ios_mcare_1"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_ios_mcare_2"/>
@@ -203,22 +203,22 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_spacex_1"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_spacex_2"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_spacex_3"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_spacex_4"/>
@@ -272,17 +272,17 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_meme_app_2"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_meme_app_3"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_meme_app_1"/>
@@ -338,12 +338,12 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_virtual_tourist_1"/>
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_virtual_tourist_2"/>
@@ -397,7 +397,7 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <ImageView
+            <com.jsibbold.zoomage.ZoomageView
                     style="@style/AppTheme.ScreenshotStyle"
                     android:layout_height="@dimen/app_phone_screenshot_height"
                     app:srcCompat="@drawable/ss_ios_flickr_tutorial_1"/>
