@@ -145,14 +145,18 @@
                 android:layout_width="match_parent"
                 android:orientation="vertical">
 
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ss_ios_mcare_1"/>
 
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStyle"
-                    android:layout_height="@dimen/app_phone_screenshot_height"
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ss_ios_mcare_2"/>
         </LinearLayout>
 

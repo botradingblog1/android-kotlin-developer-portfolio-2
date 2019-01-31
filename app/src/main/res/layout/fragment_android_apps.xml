@@ -557,11 +557,14 @@
         <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:layout_marginTop="@dimen/vertical_item_margin_med"
                 android:orientation="vertical">
 
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStylePhone"
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
                     app:srcCompat="@drawable/ss_developer_portfolio_1"/>
         </LinearLayout>
 
