@@ -511,6 +511,106 @@
                     app:srcCompat="@drawable/ss_icd_reference_4"/>
         </LinearLayout>
 
+        <!-- App 22, Row 1 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="vertical">
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                <ImageView
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:textStyle="bold"
+                            android:text="@string/android_app22_title"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:background="@color/colorDarkGrey"/>
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:text="@string/android_app21_description"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- App 22, Row 2 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_med"
+                android:orientation="vertical">
+
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
+                    app:srcCompat="@drawable/mobile_news_phone_1"/>
+
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
+                    app:srcCompat="@drawable/mobile_news_phone_2"/>
+
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
+                    app:srcCompat="@drawable/mobile_news_phone_3"/>
+
+            <com.jsibbold.zoomage.ZoomageView
+                    style="@style/AppTheme.ScreenshotStylePhone"
+                    app:srcCompat="@drawable/mobile_news_phone_4"/>
+        </LinearLayout>
+
+        <!-- App 22, Row 3 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_med"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/mobile_news_tablet_1"/>
+
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/mobile_news_tablet_2"/>
+
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/mobile_news_tablet_3"/>
+
+            <ImageView
+                    android:layout_marginTop="@dimen/vertical_item_margin_med"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/mobile_news_tablet_4"/>
+        </LinearLayout>
 
         <!-- App 21, Row 1 -->
         <LinearLayout
@@ -645,173 +745,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/vertical_item_margin_med"
                             android:text="@string/android_app10_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-        <!-- App 13, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app13_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app13_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!-- App 14, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app14_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app14_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!-- App 11, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app11_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app11_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!-- App 12, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="vertical">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="match_parent"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app12_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app12_description"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

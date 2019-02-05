@@ -147,6 +147,10 @@
     <string name="android_app18_description">Sample app for a blog post tutorial about how to implement the Flickr API in iOS Swift.</string>
 
 
+    <string name="android_app22_title">Mobile Developer News (Android, Kotlin)</string>
+    <string name="android_app22_description">Personal app to keep up with Android and iOS Developer News written in Kotlin.</string>
+
+
     <!-- iOS APPS PAGE -->
     <string name="ios_apps_title">iOS Apps</string>
 
