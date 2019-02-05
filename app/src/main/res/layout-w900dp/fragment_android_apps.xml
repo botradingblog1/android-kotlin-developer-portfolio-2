@@ -614,6 +614,80 @@
         </LinearLayout>
 
 
+        <!-- App 22, Row 1 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                <ImageView
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:textStyle="bold"
+                            android:text="@string/android_app22_title"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:background="@color/colorDarkGrey"/>
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:text="@string/android_app21_description"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- App 22, Row 2 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mobile_news_tablet_1"
+                    android:scaleType="fitCenter"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mobile_news_tablet_2"
+                    android:scaleType="fitCenter"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mobile_news_tablet_3"
+                    android:scaleType="fitCenter"/>
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/mobile_news_tablet_4"
+                    android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+
         <!-- App 21, Row 1 -->
         <LinearLayout
                 android:layout_height="wrap_content"
@@ -754,176 +828,6 @@
             </LinearLayout>
         </LinearLayout>
 
-
-        <!-- App 13, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app13_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app13_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!-- App 14, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app14_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app14_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!-- App 11, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app11_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app11_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!-- App 12, Row 1 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_large"
-                android:orientation="horizontal">
-            <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="0dp"
-                    android:layout_weight="1"
-                    android:orientation="horizontal">
-
-                <ImageView
-                        style="@style/AppTheme.AppIconStyle"
-                        app:srcCompat="@drawable/ic_app"/>
-                <LinearLayout
-                        android:layout_height="wrap_content"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:textStyle="bold"
-                            android:text="@string/android_app12_title"/>
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:background="@color/colorDarkGrey"/>
-                    <TextView
-                            style="@style/AppTheme.PageBody"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/vertical_item_margin_med"
-                            android:text="@string/android_app12_description"/>
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
 
 
 

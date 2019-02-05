@@ -559,30 +559,6 @@
                 android:layout_marginTop="@dimen/vertical_item_margin_med"
                 android:orientation="vertical">
 
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStylePhone"
-                    app:srcCompat="@drawable/mobile_news_phone_1"/>
-
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStylePhone"
-                    app:srcCompat="@drawable/mobile_news_phone_2"/>
-
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStylePhone"
-                    app:srcCompat="@drawable/mobile_news_phone_3"/>
-
-            <com.jsibbold.zoomage.ZoomageView
-                    style="@style/AppTheme.ScreenshotStylePhone"
-                    app:srcCompat="@drawable/mobile_news_phone_4"/>
-        </LinearLayout>
-
-        <!-- App 22, Row 3 -->
-        <LinearLayout
-                android:layout_height="wrap_content"
-                android:layout_width="match_parent"
-                android:layout_marginTop="@dimen/vertical_item_margin_med"
-                android:orientation="vertical">
-
             <ImageView
                     android:layout_marginTop="@dimen/vertical_item_margin_med"
                     android:layout_width="match_parent"
