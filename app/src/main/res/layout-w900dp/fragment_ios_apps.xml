@@ -28,7 +28,46 @@
                 android:layout_marginRight="@dimen/vertical_item_margin_med"
                 android:background="@android:color/white"/>
 
+        <!-- App 1 TRUSTICA, Row 1 -->
+        <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/vertical_item_margin_large"
+                android:orientation="horizontal">
+            <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
 
+                <ImageView
+                        style="@style/AppTheme.AppIconStyle"
+                        app:srcCompat="@drawable/ic_app"/>
+                <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical">
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:textStyle="bold"
+                            android:text="@string/ios_app1_title"/>
+                    <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:background="@color/colorDarkGrey"/>
+                    <TextView
+                            style="@style/AppTheme.PageBody"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/vertical_item_margin_med"
+                            android:text="@string/ios_app1_description"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
 
 
         <!-- App 7, Row 1 -->

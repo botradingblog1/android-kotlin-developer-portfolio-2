@@ -154,6 +154,12 @@
     <!-- iOS APPS PAGE -->
     <string name="ios_apps_title">iOS Apps</string>
 
+
+    <string name="ios_app1_title">TRUSTICA Mobile (iOS, Objective-C, Swift)</string>
+    <string name="ios_app1_description">Enterprise mobile application for secure messaging and Voice-Over-IP audio calls.</string>
+
+
+
     <!-- XAMARIN APPS PAGE -->
     <string name="xamarin_apps_title">Xamarin Apps</string>
 
